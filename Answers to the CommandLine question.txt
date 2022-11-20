@@ -1,0 +1,26 @@
+Answers to the CommandLine 
+For the countries Italy, Spain, France, England, and the United States, report the following (using the information scraped in point 1.3):
+1. How many places can be found in each country?
+2. How many people, on average, have visited the places in each country?
+3. How many people in total want to visit the places in each country?
+
+Using the command grep on shell we can extract places of each country from the dataframe and with wc -l count them.
+237 : places in Italy
+120 : places in Spain
+351 : places in France 
+520 : places in England 
+4016 : places in the United States 
+
+Then we use cut and grep to extract values we need from each column to be able to alculate the average... 
+395.407 : number of people (on average) who visited Italy
+498.541 : number of people (on average) who visited Spain
+452.286 : number of people (on average) who visited France
+500.586 : number of people (on average) who visited Englnd 
+461.552 : number of people (on average) who visited the US
+
+...and the sum of what we need 
+165962 : number of people who want to visit Italy in total 
+63167 : number of people who want to visit Spain in total 
+192485 : number of people who want to visit France in total 
+370450 : number of people who want to visit England in total 
+4028834 : number of people who want to visit the US in total 

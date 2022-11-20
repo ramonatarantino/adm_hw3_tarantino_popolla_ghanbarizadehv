@@ -7,7 +7,7 @@
 ### The following files are found in the repository:
 - ADM_HW3_code: the file that contains the python script of all the homework
 - CommandLine.sh : 6. Command line question
--Theoretical_question  and another .txt files named as 'RankingList5.txt' , 'RankingList6.txt' , 'RankingList7.txt':  the files that contain the final output of the three sorting algorithms
+-Theoretical_question  and another .txt files named as 'RankingList5.txt' , 'RankingList6.txt' , 'RankingList8.txt':  the files that contain the final output of the three sorting algorithms
 - Map.html : the html page containing the output map of exercise 4 (added because it was not visible in ADM_HW3_code) 
 - places.txt : the list of places
 - places.tsv

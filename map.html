@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b126e0cc4a48a715e089a796d475c288 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b126e0cc4a48a715e089a796d475c288" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b126e0cc4a48a715e089a796d475c288 = L.map(
+                "map_b126e0cc4a48a715e089a796d475c288",
+                {
+                    center: [0, 0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 1,
+                    zoomControl: true,
+                    preferCanvas: false,
+                    Tiles: "CartoDB positron",
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_774f7c6970f482d494acbc0499d4ea9d = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 1.5, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_b126e0cc4a48a715e089a796d475c288);
+        
+    
+            var marker_cluster_7d41f8515c419d48429a14fdd8fc4d0d = L.markerClusterGroup(
+                {}
+            );
+            map_b126e0cc4a48a715e089a796d475c288.addLayer(marker_cluster_7d41f8515c419d48429a14fdd8fc4d0d);
+        
+    
+            var marker_6db268b71bf814855b3b227ac8797b84 = L.marker(
+                [41.8856, -87.6249],
+                {"fill": true}
+            ).addTo(marker_cluster_7d41f8515c419d48429a14fdd8fc4d0d);
+        
+    
+        var popup_e757943bef0384b25b8869cce1cf85d4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e3dfa77eb5afd46ee581adf048f6966c = $(`<div id="html_e3dfa77eb5afd46ee581adf048f6966c" style="width: 100.0%; height: 100.0%;">Name of the place : American Writers Museum<br>                     City : Chicago<br>                     Country : United States<br>                     People who visited : 180.0<br>                     Address : 180 N Michigan Ave Chicago, Illinois, 60601 United States<br></div>`)[0];
+            popup_e757943bef0384b25b8869cce1cf85d4.setContent(html_e3dfa77eb5afd46ee581adf048f6966c);
+        
+
+        marker_6db268b71bf814855b3b227ac8797b84.bindPopup(popup_e757943bef0384b25b8869cce1cf85d4)
+        ;
+
+        
+    
+    
+            var marker_b5bc2759aa5e8f1336741026347d7317 = L.marker(
+                [30.267, -97.7387],
+                {"fill": true}
+            ).addTo(marker_cluster_7d41f8515c419d48429a14fdd8fc4d0d);
+        
+    
+        var popup_2e4acbd922cd0dc817f69d818a3c8fb1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_238dfb8ab5a7a0bcd891cf539b2da31f = $(`<div id="html_238dfb8ab5a7a0bcd891cf539b2da31f" style="width: 100.0%; height: 100.0%;">Name of the place : Museum of the Weird<br>                     City : Austin<br>                     Country : United States<br>                     People who visited : 1013.0<br>                     Address : Museum of the Weird 412 E 6th St. Austin, Texas, 78701 United States<br></div>`)[0];
+            popup_2e4acbd922cd0dc817f69d818a3c8fb1.setContent(html_238dfb8ab5a7a0bcd891cf539b2da31f);
+        
+
+        marker_b5bc2759aa5e8f1336741026347d7317.bindPopup(popup_2e4acbd922cd0dc817f69d818a3c8fb1)
+        ;
+
+        
+    
+    
+            var marker_23930014fd9d3b978cd0ba17e872a1ac = L.marker(
+                [13.7588, 100.4851],
+                {"fill": true}
+            ).addTo(marker_cluster_7d41f8515c419d48429a14fdd8fc4d0d);
+        
+    
+        var popup_afbce5e19802d3362e4ca29b600244fe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e536442f53c42a064df72c17508ddeb = $(`<div id="html_6e536442f53c42a064df72c17508ddeb" style="width: 100.0%; height: 100.0%;">Name of the place : Siriraj Medical Museum<br>                     City : กรุงเทพมหานคร<br>                     Country : ประเทศไทย<br>                     People who visited : 246.0<br>                     Address : Siriraj Sub-District, Bangkoknoi District Bangkok, 10700 Thailand<br></div>`)[0];
+            popup_afbce5e19802d3362e4ca29b600244fe.setContent(html_6e536442f53c42a064df72c17508ddeb);
+        
+
+        marker_23930014fd9d3b978cd0ba17e872a1ac.bindPopup(popup_afbce5e19802d3362e4ca29b600244fe)
+        ;
+
+        
+    
+    
+            var marker_15cad5d642b7a9e6364d006250ff27f7 = L.marker(
+                [29.943, -90.0704],
+                {"fill": true}
+            ).addTo(marker_cluster_7d41f8515c419d48429a14fdd8fc4d0d);
+        
+    
+        var popup_cdae91343b499dfbcce59d3ce7debefe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_70824c227dd8a022f00fbf615e683a14 = $(`<div id="html_70824c227dd8a022f00fbf615e683a14" style="width: 100.0%; height: 100.0%;">Name of the place : National World War II Museum<br>                     City : New Orleans<br>                     Country : United States<br>                     People who visited : 1379.0<br>                     Address : 945 Magazine Street New Orleans, Louisiana, 70130 United States<br></div>`)[0];
+            popup_cdae91343b499dfbcce59d3ce7debefe.setContent(html_70824c227dd8a022f00fbf615e683a14);
+        
+
+        marker_15cad5d642b7a9e6364d006250ff27f7.bindPopup(popup_cdae91343b499dfbcce59d3ce7debefe)
+        ;
+
+        
+    
+    
+            var marker_de5283a2482231b600eeebf30e4f31ac = L.marker(
+                [43.0385, -87.8975],
+                {"fill": true}
+            ).addTo(marker_cluster_7d41f8515c419d48429a14fdd8fc4d0d);
+        
+    
+        var popup_f6d3ac04aa406f0d07f6bcc30be3f0d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aa1ca06df58598bd9decd5ce40e497e5 = $(`<div id="html_aa1ca06df58598bd9decd5ce40e497e5" style="width: 100.0%; height: 100.0%;">Name of the place : Milwaukee Art Museum<br>                     City : Milwaukee<br>                     Country : United States<br>                     People who visited : 1648.0<br>                     Address : 700 N. Art Museum Dr. Milwaukee, Wisconsin, 53202 United States<br></div>`)[0];
+            popup_f6d3ac04aa406f0d07f6bcc30be3f0d1.setContent(html_aa1ca06df58598bd9decd5ce40e497e5);
+        
+
+        marker_de5283a2482231b600eeebf30e4f31ac.bindPopup(popup_f6d3ac04aa406f0d07f6bcc30be3f0d1)
+        ;
+
+        
+    
+    
+            var marker_1f6c3c86c24c2ed2fd21a4f2fb9629f7 = L.marker(
+                [39.1117, -76.7711],
+                {"fill": true}
+            ).addTo(marker_cluster_7d41f8515c419d48429a14fdd8fc4d0d);
+        
+    
+        var popup_e20f922851ca2ecae17b3253b28002c8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_01bf5f1a8dbf9d33f998c26b93554797 = $(`<div id="html_01bf5f1a8dbf9d33f998c26b93554797" style="width: 100.0%; height: 100.0%;">Name of the place : National Cryptologic Museum<br>                     City : nan<br>                     Country : United States<br>                     People who visited : 320.0<br>                     Address : Canine Road Fort Meade, Maryland, 20755 United States<br></div>`)[0];
+            popup_e20f922851ca2ecae17b3253b28002c8.setContent(html_01bf5f1a8dbf9d33f998c26b93554797);
+        
+
+        marker_1f6c3c86c24c2ed2fd21a4f2fb9629f7.bindPopup(popup_e20f922851ca2ecae17b3253b28002c8)
+        ;
+
+        
+    
+    
+            var marker_b155c52263c6319c8cfa0d745b668759 = L.marker(
+                [37.7878, -122.4382],
+                {"fill": true}
+            ).addTo(marker_cluster_7d41f8515c419d48429a14fdd8fc4d0d);
+        
+    
+        var popup_ac1227ffce410cf9819ec259a9e29d4f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d7b6dc48d815147883513aa030d3d140 = $(`<div id="html_d7b6dc48d815147883513aa030d3d140" style="width: 100.0%; height: 100.0%;">Name of the place : Museum of Russian Culture<br>                     City : San Francisco<br>                     Country : United States<br>                     People who visited : 106.0<br>                     Address : 2450 Sutter St Third Floor San Francisco, California, 94115 United States<br></div>`)[0];
+            popup_ac1227ffce410cf9819ec259a9e29d4f.setContent(html_d7b6dc48d815147883513aa030d3d140);
+        
+
+        marker_b155c52263c6319c8cfa0d745b668759.bindPopup(popup_ac1227ffce410cf9819ec259a9e29d4f)
+        ;
+
+        
+    
+    
+            var marker_e7b2cfc199cb1265d357ff5b39e3c76c = L.marker(
+                [39.2836, -76.6197],
+                {"fill": true}
+            ).addTo(marker_cluster_7d41f8515c419d48429a14fdd8fc4d0d);
+        
+    
+        var popup_d1a5663bce0014a1f2f21336d870b8ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a0cc71a382c043508d892e735bba9095 = $(`<div id="html_a0cc71a382c043508d892e735bba9095" style="width: 100.0%; height: 100.0%;">Name of the place : Geppi's Entertainment Museum<br>                     City : Baltimore<br>                     Country : United States<br>                     People who visited : 254.0<br>                     Address : 301 W Camden St Baltimore, Maryland, 21201 United States<br></div>`)[0];
+            popup_d1a5663bce0014a1f2f21336d870b8ea.setContent(html_a0cc71a382c043508d892e735bba9095);
+        
+
+        marker_e7b2cfc199cb1265d357ff5b39e3c76c.bindPopup(popup_d1a5663bce0014a1f2f21336d870b8ea)
+        ;
+
+        
+    
+    
+            var marker_dbd0567fb355e6719a37dabde932ce8e = L.marker(
+                [48.5358, -123.0172],
+                {"fill": true}
+            ).addTo(marker_cluster_7d41f8515c419d48429a14fdd8fc4d0d);
+        
+    
+        var popup_fd3e19669b7718ca2114f314f6843d82 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_59314e1c353ceef93816092c053d66ad = $(`<div id="html_59314e1c353ceef93816092c053d66ad" style="width: 100.0%; height: 100.0%;">Name of the place : Whale Museum<br>                     City : nan<br>                     Country : United States<br>                     People who visited : 275.0<br>                     Address : 62 First St. N. Friday Harbor, Washington, 98250 United States<br></div>`)[0];
+            popup_fd3e19669b7718ca2114f314f6843d82.setContent(html_59314e1c353ceef93816092c053d66ad);
+        
+
+        marker_dbd0567fb355e6719a37dabde932ce8e.bindPopup(popup_fd3e19669b7718ca2114f314f6843d82)
+        ;
+
+        
+    
+    
+            var marker_c5897346af8015f36946b2fdab1026da = L.marker(
+                [38.8911, -77.0326],
+                {"fill": true}
+            ).addTo(marker_cluster_7d41f8515c419d48429a14fdd8fc4d0d);
+        
+    
+        var popup_c67659d63467020813a301dac64df8ae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4a1a8475d97aeca24c6ac79d06360a31 = $(`<div id="html_4a1a8475d97aeca24c6ac79d06360a31" style="width: 100.0%; height: 100.0%;">Name of the place : Sweet Home Cafe<br>                     City : Washington<br>                     Country : United States<br>                     People who visited : 191.0<br>                     Address : National Museum of African American History and Culture 1400 Constitution Ave NW Washington, District of Columbia United States<br></div>`)[0];
+            popup_c67659d63467020813a301dac64df8ae.setContent(html_4a1a8475d97aeca24c6ac79d06360a31);
+        
+
+        marker_c5897346af8015f36946b2fdab1026da.bindPopup(popup_c67659d63467020813a301dac64df8ae)
+        ;
+
+        
+    
+</script>
+</html>

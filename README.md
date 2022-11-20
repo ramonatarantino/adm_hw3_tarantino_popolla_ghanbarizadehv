@@ -14,3 +14,4 @@
 - inverted_index.pkl and tfidfinvindex.pkl 
 - vocabulary.pkl 
 - dfquestion3new.csv : dataframe of the 3rd point of the homework 
+### Some files are located in the 'files-used-in-the-code' branch
